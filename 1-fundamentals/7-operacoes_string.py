@@ -23,7 +23,7 @@ line = '='
 asterisco = '*'
 print((line * len(evilName) + (asterisco * len(evilVertsion))))
 
-#Exemplo prático abaixo irá mostrar exatamente o mesmo tamanho de strind com o underScore
+#Exemplo prático abaixo irá mostrar exatamente o mesmo tamanho de string com o underScore
 title = 'Praticando python com multiplicaçao utilizando strings'
 under = '-'
 print(f'{under * len(title)}\n{title}\n{under * len(title)}')
