@@ -1,0 +1,9 @@
+[
+  {"nome": "Paulo Bueno", "idade":  33, "cidade": "Itaquaquecetuba", "Estado": "SP"},
+  {"nome": "Fabio Bueno", "idade":  32, "cidade": "Itaquaquecetuba", "Estado": "SP"},
+  {"nome": "Hiromi Murao", "idade":  29, "cidade": "Aruja", "Estado": "SP"},
+  {"nome": "Carlos Bueno", "idade":  65, "cidade": "Itaquaquecetuba", "Estado": "SP"},
+  {"nome": "Claudenes Vieira", "idade":  63, "cidade": "Maringá", "Estado": "PR"},
+  {"nome": "Paulo Martins", "idade":  32, "cidade": "Teresina", "Estado": "PI"},
+  {"nome": "Heitor Lages", "idade": 28, "cidade": "São José", "Estado": "SC"}
+]
