@@ -1,0 +1,23 @@
+Primeiramente navegar pelo terminal até a pasta gerenciador-pip
+Depois criar 1 novo ambiente de desenvolvimento para instalarmos nossas libs de forma local e nao global
+Para criar um novo ambiente executar o comando dentro do projeto que queremos instalar as libs abra o terminal, navegue até o projeto e digite:
+commando = "python -m venv .venv"
+Após isso precisamos selecionar o ambiente novo:
+- Com o terminal já na raiz do projeto, selecione a pasta .venv com o comando "cd .venv"
+- Depois selecione a pasta Script com o comando "cd Scripts"
+- Após isso é necessário ativar o o ambiente, note que dentro da pasta Scripts em .venv temos o arquivo activate, digite o coando ".\activate" e o ambiente será selecionado.
+
+Comandos PIP:
+- pip list: Lista todas as bibliotecas instaladas e qual a versão do pip
+- pip install ("Aqui digitamos a biblioteca"): Para instalar qualquer biblioteca em python
+- pip freeze: Para saber a versão das bibliotecas
+- pip freeze -l > requirements.txt: Para criar o arquivo.txt na raiz do projeto com as versões das bibliotecas
+- pip install -r requirements.txt: Para instalar todas as bibliotecas automaticamente no projeto
+
+OBS: No nosso projeto instalaremos 2 bibliotecas:
+sketchpy = pip install sketchpy
+//IMPORTANTE: caso de erro com o turtle e deseje ignorar utilize o comando: "pip install sketchpy --no-deps"
+pyinstaller = pip install pyinstaller
+
+Utilizando o pyinstaller
+Para gerar um executavel digite o comando pyinstaller --onefille "Aqui o nome do arquivo"
