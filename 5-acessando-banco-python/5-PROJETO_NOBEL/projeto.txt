@@ -1,0 +1,1 @@
+Neste projeto aprenderemos a receber dados de uma API externa, onde coletaremos os dados e iremos inserir os valores dentro do mongoDB com python
